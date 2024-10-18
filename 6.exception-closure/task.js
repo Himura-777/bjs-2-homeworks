@@ -1,6 +1,6 @@
 ﻿function parseCount(number) {
 	const parseNumber = Number.parseFloat(number);
-	if (isNan(parseNumber)) {
+	if (isNaN(parseNumber)) {
 		throw new Error('Невалидное значение');
 	}
 	return parseNumber;
